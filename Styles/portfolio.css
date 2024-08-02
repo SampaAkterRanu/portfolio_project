@@ -72,15 +72,36 @@ main{
 }
 /* about section styles */
 .about{
-    margin-top: 130px;
+    margin-top: 100px;
     background: #fff8f3;
     border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
 
 
 }
 .section-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
 
 }
 .section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
